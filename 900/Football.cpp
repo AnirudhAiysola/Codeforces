@@ -14,11 +14,12 @@ int main()
             i++;
             count++;
         }
-        if (count == 7)
+        if (count >= 7)
         {
             flag = true;
             break;
         }
+        count = 1;
     }
     if (flag)
     {
